@@ -117,7 +117,7 @@ function gameloop(){
                   vx=-vx;}
             }
             if(marginLeft(ball)>960){
-                let temp=Math.floor(Math.random() * 24) + 1;
+                let temp=Math.floor(Math.random() * 23) + 1;
                 player2.style.marginTop=`${marginTop(ball)+temp}px`
                 if(marginTop(player2)<0){
                     player2.style.marginTop="0px"
