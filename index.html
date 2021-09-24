@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gamebody">
+    <div class="gamecontent">
+        <h1 class="gamename">Ping Pong</h1>
+        <ul>
+            <li>Enter 'w' key to move Paddle Up.</li>
+            <li>Enter 's' key to move Paddle Down.</li>
+            <li>Player who score 11, become Champion.</li>
+            <li>Select difficulty level
+                <ul>
+                    <li><input name="abc" onclick="difficultylevel1()" type="radio">Easy</li>
+                    <li><input name="abc" onclick="difficultylevel2()" type="radio">Medium</li>
+                    <li><input name="abc" onclick="difficultylevel3()" type="radio">Hard</li>
+                </ul>
+            </li>
+            <li>Click on 'Start' button to Start.</li>
+        </ul>
+        <button class="button"onclick="funclick()">Start</button>
+    </div>
+    <div>
+    <div class="player">
+        <div class="player1">
+            <div class="player1name">Player 1 Score</div>
+            <div class="player1score">0</div>
+        </div>
+        <div class="playerwon"></div>
+        <div class="player2">
+            <div class="player2name">Player 2 Score</div>
+            <div class="player2score">0</div>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="player1stick"></div>
+        <div class="player2stick"></div>
+        <div class="ball"></div>
+    </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
