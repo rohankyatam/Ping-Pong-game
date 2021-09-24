@@ -6,7 +6,7 @@ Ping Pong is one of the first computer games that ever created, this simple "ten
 - CSS
 - JAVASCRIPT
 
-## Project link
+## Project Host link
 - <https://ping-pong1.netlify.app/>
 
 ## Controls
