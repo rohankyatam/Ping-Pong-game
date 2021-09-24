@@ -123,7 +123,7 @@ function gameloop(){
                     player2.style.marginTop="0px"
                 }
                 if(marginTop(player2)>(500-lengthOfStick)){
-                    player2.style.marginTop=`${500-(lengthOfStick)}`
+                    player2.style.marginTop=`${500-(lengthOfStick)}px`
                 }
                 if((marginTop(ball)+20)>marginTop(player2)){
                 vx=-vx;
